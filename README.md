@@ -14,7 +14,8 @@ A summary of software you installed and configuration changes made.
   - Change Uncomplicated Firewall configrations
   - Change SSH port in /etc/ssh/sshd_config
   - Configured /etc/hosts and /etc/hostname to contain the correct host & ip address
-
+  - Changed /etc/ssh/sshd_config to have the folloing configurations: (1) 'PasswordAuthentication yes' to enable user to ssh to server using a password, (2) 'PermitRootLogin no' to disable root ssh login, and (3) 'AllowUsers grader' to only allow grader user to log in to the server 
+    
 * Finger
 
 * Apache2
@@ -69,6 +70,10 @@ A list of any third-party resources you made use of to complete this project.
 * Add new user and give sudo permissions 
   - http://askubuntu.com/questions/7477/how-can-i-add-a-new-user-as-sudoer-using-the-command-line
   - https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-12-04
+* Change root ssh log in permission
+  - https://mediatemple.net/community/products/dv/204643810/how-do-i-disable-ssh-login-for-the-root-user
+* Enable server users to SSH to server using a password
+  - https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
 * Update & Upgrade software  
   - https://wiki.ubuntu.com/Security/Upgrades
 * Configure Uncomplicated Firewall 
