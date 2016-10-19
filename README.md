@@ -61,7 +61,11 @@ A summary of software you installed and configuration changes made.
 
 * net-tools
   -  To run netstat and see network connections linked to the machine  
+  
+* Automatic updates (unattended-upgrades) 
 
+* Notification for pending updates & upgrades (update-notifier-common)
+  
 
 A list of any third-party resources you made use of to complete this project.
 -----------------------------------------------------------------------------
@@ -103,3 +107,7 @@ A list of any third-party resources you made use of to complete this project.
 * Django installation and configuration
   - http://postgresapp.com/documentation/configuration-python.html 
   - https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-14-04 
+* Automatic updates   
+  - https://help.ubuntu.com/12.04/serverguide/automatic-updates.html
+* Notification for pending updates & upgrades  
+  - http://blog.nas-admin.org/?p=21
